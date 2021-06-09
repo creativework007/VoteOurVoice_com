@@ -1,0 +1,806 @@
+/******************************/
+/*       General Styles       */
+/******************************/
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Manrope', sans-serif;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 48px;
+    color: #292929;
+}
+
+p{
+    
+}
+
+.boxed {
+    background: #BF0D3E;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 1px solid #BF0D3E;
+}
+a.boxed:hover{
+    color: #00205B;
+    background: #fff;
+    text-decoration: none;
+}
+
+.section-padding{
+    margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+/**************************/
+/*       Navigation       */
+/**************************/
+
+.navbar-custom {
+	background-color: #fff;
+	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+	font: 600 0.875rem/0.875rem;
+	transition: all 0.2s;
+}
+
+.container-fluid{
+    max-width: 1140px;
+}
+
+.navbar-collapse{
+    text-align: right;
+    margin-right: 25px;
+}
+
+.navbar-custom .navbar-toggler {
+	border: none;
+	color: #393939;
+	font-size: 2rem;
+}
+
+.navbar-custom button[aria-expanded='false'] .navbar-toggler-awesome.fas.fa-times{
+	display: none;
+}
+
+.navbar-custom button[aria-expanded='false'] .navbar-toggler-awesome.fas.fa-bars{
+	display: inline-block;
+}
+
+.navbar-custom button[aria-expanded='true'] .navbar-toggler-awesome.fas.fa-bars{
+	display: none;
+}
+
+.navbar-custom button[aria-expanded='true'] .navbar-toggler-awesome.fas.fa-times{
+	display: inline-block;
+	margin-right: 0.125rem;
+}
+
+.navbar-custom .signup-area .area{
+    display: inline-block;
+}
+
+.navbar-custom .signup-area a.login{
+    color: #292929;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+.navbar-custom .signup-area a{
+    margin-left: 15px;
+}
+
+.navbar-custom .signup-area .other{
+    color: #292929;
+    border: 1px solid #BF0D3E;
+    background: #fff;
+    transition: 0.5s;
+}
+
+.navbar-custom .signup-area .other:hover{
+    color: #fff;
+    background: #292929;
+    border: 1px solid #292929;
+    transition: 0.5s;
+}
+
+/**************************/
+/*         Header         */
+/**************************/
+
+#hero-area{
+    background-image: url(../img/Hero%20BG.png);
+    background-size: cover;
+    background-position: ;
+}
+
+#hero-area .hero-overlay{
+    background-color: rgba(0, 32, 91, 0.7);
+    background-size: cover;
+    background-position: center;
+}
+
+#hero-area,
+#hero-area .hero-overlay{
+    width: 100%;
+    height: 700px;
+}
+
+#hero-area .left-sight,
+#hero-area .right-sight {
+    margin-top: 200px;
+}
+
+#hero-area .left-sight h1{
+    color: #fff;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 66px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+#hero-area .left-sight p{
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#hero-area .left-sight h1 .color{
+    background: #BF0D3E;
+    padding: 0 8px;
+    border-radius: 5px;
+}
+
+#hero-area .right-sight{
+    text-align: center
+}
+
+/**************************/
+/*        Red Blue        */
+/**************************/
+
+#red-blue .desktop-bg{
+    background-image: url(../img/Red%20blue%20desktop.png);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 110px;
+    position: relative;
+}
+
+#red-blue .desktop-bg .content{
+    margin-top: 80px;
+}
+
+#red-blue .content p{
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+#red-blue .content .boxed{
+    font-weight: 600;
+    font-size: 11px;
+    padding: 15px 25px;
+}
+
+#red-blue .content .read{
+    padding-top: 60px;
+    position: absolute
+}
+
+#red-blue .politicians{
+    margin-left: auto;
+}
+
+
+
+ 
+
+/**************************/
+/*        Democracy       */
+/**************************/
+
+#democracy .democracy-text p{
+    color: rgba(41, 41, 41, 0.8);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+}
+#democracy .card{
+    background-color: #00205B;
+    color: #fff;
+    border-radius: 6px;
+    width: 100%;
+    height: 370px;
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+
+#democracy .card .content .middle{
+    margin-top: 55px;
+}
+
+#democracy .card .content .middle-text{
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+#democracy .card .content .middle-text h5{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#democracy .card .content .middle-text p{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+#democracy .card .content .bottom p{
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 40px;
+}
+
+/**************************/
+/*        Election        */
+/**************************/
+
+#election .content{
+    text-align: center;
+    margin: auto
+}
+
+#election .content p{
+    color: rgba(41, 41, 41, 0.8);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+#election .content input{
+    width: 380px;
+    height: 50px;
+    background: #00205B;
+    margin: auto;
+    display: inline-block;
+    outline: 0;
+    box-shadow:none;
+    color: #fff;
+}
+
+#election .content .search-item{
+    margin-top: 70px;
+}
+
+#election .content .search-icon{
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    background: #BF0D3E;
+    border-radius: 5px;
+    font-size: 20px;
+    display: inline-block;
+    position: absolute;
+    margin-left: -35px;
+    cursor: pointer;
+}
+
+#election .content .fas{
+    margin-top: 13px;
+}
+
+/**************************/
+/*      Report card       */
+/**************************/
+
+
+/* Fade-move Animation For button - Magnific Popup */
+/* at start */
+.my-mfp-slide-bottom .zoom-anim-dialog {
+	opacity: 0;
+	transition: all 0.2s ease-out;
+	-webkit-transform: translateY(-1.25rem) perspective(37.5rem) rotateX(10deg);
+	-ms-transform: translateY(-1.25rem) perspective(37.5rem) rotateX(10deg);
+	transform: translateY(-1.25rem) perspective(37.5rem) rotateX(10deg);
+}
+
+/* animate in */
+.my-mfp-slide-bottom.mfp-ready .zoom-anim-dialog {
+	opacity: 1;
+	-webkit-transform: translateY(0) perspective(37.5rem) rotateX(0); 
+	-ms-transform: translateY(0) perspective(37.5rem) rotateX(0); 
+	transform: translateY(0) perspective(37.5rem) rotateX(0); 
+}
+
+/* animate out */
+.my-mfp-slide-bottom.mfp-removing .zoom-anim-dialog {
+	opacity: 0;
+	-webkit-transform: translateY(-0.625rem) perspective(37.5rem) rotateX(10deg); 
+	-ms-transform: translateY(-0.625rem) perspective(37.5rem) rotateX(10deg); 
+	transform: translateY(-0.625rem) perspective(37.5rem) rotateX(10deg); 
+}
+
+/* dark overlay, start state */
+.my-mfp-slide-bottom.mfp-bg {
+	opacity: 0;
+	transition: opacity 0.2s ease-out;
+}
+
+/* animate in */
+.my-mfp-slide-bottom.mfp-ready.mfp-bg {
+	opacity: 0.8;
+}
+/* animate out */
+.my-mfp-slide-bottom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
+/* end of fade-move animation for button - magnific popup */
+
+
+.basic-1 {
+	padding-top: 1.625rem;
+	padding-bottom: 3.75rem;
+}
+
+#report-card .card-bg{
+    background-image: url(../img/Card-bg.png);
+    background-color: #00205B;
+}
+
+#report-card .text-container{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#report-card .text-container h2{
+    color: #fff;
+    margin-top: 30px;
+}
+
+#report-card .text-container p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 30px;
+}
+
+#report-card .text-container p span{
+    display: block;
+}
+
+#report-card .text-container .result{
+    margin-top: 40px;
+}
+
+#report-card .text-container .result .boxed{
+    padding: 15px 40px;
+}
+
+#report-card .text-container .result a{
+    font-weight: 600;
+    font-size: 11px;
+}
+
+
+lightbox-basic {
+	margin: 2.5rem auto;
+	padding: 2rem 1.5rem 2rem 1.5rem;
+	border-radius: 0.25rem;
+	background: #fff;
+	text-align: left;
+}
+
+.lightbox-basic .popup-bg{
+    background-image: url(../img/report-card-popup.png);
+    background-color: #00205B;
+    background-size: cover;
+    color: #fff;
+    padding: 30px;
+    border-radius: 6px;
+}
+
+.lightbox-basic .popup-bg p{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.lightbox-basic .popup-bg .fas{
+    margin-right: 15px;
+}
+
+.lightbox-basic .popup-bg h4{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.lightbox-basic .popup-bg label{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.lightbox-basic .popup-bg input{
+    font-weight: 600;
+    font-size: 12px;
+    padding: 5px;
+    width: 100%;
+    outline: 0;
+    box-shadow:none;
+}
+
+.lightbox-basic .popup-bg .para{
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 600;
+    font-size: 10px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.lightbox-basic .popup-bg .boxed{
+    font-weight: 600;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    padding: 7px 30px;
+}
+
+.lightbox-basic .btn-outline-reg,
+.lightbox-basic .btn-solid-reg {
+	margin-top: 0.75rem;
+}
+
+/* Signup Button 
+.lightbox-basic .btn-solid-reg.mfp-close {
+	position: relative;
+	width: auto;
+	height: auto;
+	color: #fff;
+	opacity: 1;
+}
+
+.lightbox-basic .btn-solid-reg.mfp-close:hover {
+	color: #00bfd8;
+}
+/* end of signup Button */
+
+.lightbox-basic .popup-bg .close-button{
+    position: absolute;
+    top: 18px;
+    right: 35px;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.lightbox-basic button.mfp-close.x-button {
+	position: absolute;
+    top: -12px;
+    right: -12px;
+    color: #000;
+    font-size: 25px;
+}
+
+/**************************/
+/*    Information Site    */
+/**************************/
+
+#information-site.section-padding{
+    margin-top: 30px;
+}
+
+#information-site .content{
+    text-align: center;
+}
+
+#information-site .content p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 90px;
+}
+
+#information-site .content p span{
+    display: block;
+}
+
+#information-site .img-thumb .card{
+    margin-bottom: 30px;
+    border: none;
+}
+
+#information-site .img-thumb .card-body{
+    padding: 0;
+    border: none;
+}
+
+
+/************************************/
+/*    Frequently Asked Questions    */
+/************************************/
+
+.faq .section-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.faq .faq-list{
+    background-color: rgba(243, 245, 250, 0.3);
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.faq .faq-list ul {
+  padding: 0;
+  list-style: none;
+    
+}
+
+.faq .faq-list li + li {
+  margin-top: 15px;
+}
+
+.faq .faq-list li {
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  position: relative;
+    z-index: 999;
+}
+
+.faq .faq-list a {
+  display: block;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  outline: none;
+    color: #292929;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.faq .faq-list .icon-help {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  left: 20px;
+  color: #47b2e4;
+}
+
+.faq .faq-list .icon-show, .faq .faq-list .icon-close {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+    color: #BF0D3E;
+}
+
+.faq .faq-list p {
+    margin-bottom: 0;
+    padding: 10px 0 0 0;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.faq .faq-list .icon-show {
+  display: none;
+}
+
+.faq .faq-list a.collapsed .icon-show {
+  display: inline-block;
+}
+
+.faq .faq-list a.collapsed .icon-close {
+  display: none;
+}
+
+.faq .faq-list .faq-bg img{
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    margin-right: -25px;
+    margin-bottom: -10px;
+}
+
+/**************************/
+/*       Membership       */
+/**************************/
+
+#membership .membership-bg{
+    background-image: url(../img/Card-bg.png);
+    background-position: center;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#membership .content{
+    padding: 40px 0 40px 40px;
+}
+
+#membership .content .top{
+    color: #292929;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#membership .content .bottom{
+    color: #292929;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 35px;
+}
+
+#membership .content .bottom a{
+    color: #BF0D3E;
+    text-decoration: underline;
+}
+
+#membership .content .play,
+#membership .content .access{
+    display: inline-block
+}
+
+#membership .content .boxed{
+    padding: 15px 40px;
+}
+
+#membership .content .play .boxed{
+    margin-right: 20px;
+}
+
+#membership .content .access .boxed{
+    color: #292929;
+    background: #fff;
+    padding: 15px 20px;
+}
+
+#membership .content .access .boxed:hover{
+    color: #fff;
+    background: #BF0D3E;
+}
+
+
+/*    Details popup 2       */
+
+.access-popup h4 a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.access-popup .content{
+    margin-top: 30px;
+}
+
+.access-popup .content p{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.access-popup .content .fa {
+    background: #fff;
+    color: #008ed6;
+    padding: 4px;
+    font-size: 10px;
+    border-radius: 2px;
+    margin-right: 15px;
+    width: 18px;
+    height: 18px;
+    margin-top: 3px;
+}
+
+.access-popup .social-icons{
+    margin-top: 60px;
+}
+
+.access-popup .social-icons a{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.access-popup .social-icons a:hover{
+    text-decoration: none;
+}
+
+/**************************/
+/*         Footer         */
+/**************************/
+
+#footer{
+    margin-top: -140px;
+}
+
+#footer .footer-bg{
+    background-image: url(../img/Footer.png);
+    background-size: cover;
+    padding-top: 250px;
+    padding-bottom: 50px;
+}
+
+#footer .footer-bg a{
+    color: #fff;
+}
+
+#footer .footer-bg a:hover{
+    text-decoration: none;
+}
+
+#footer .footer-bg .horizontal hr{
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 1px;
+}
+
+#footer .footer-top .links a{
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 65px;
+}
+
+#footer .footer-top .links a:nth-child(4){
+    margin-right: 0;
+}
+
+#footer .footer-top .icons{
+    text-align: right;
+}
+
+#footer .footer-top .icons a{
+    font-size: 20px;
+    margin-left: 45px;
+}
+
+#footer .footer-top .icons a:nth-child(1) {
+    margin-left: 0;
+}
+
+#footer .footer-bottom .left p{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 35px;
+}
+
+#footer .footer-bottom .right{
+    margin-top: 35px;
+}
+
+#footer .footer-bottom .right a{
+    font-size: 14px;
+    margin-left: 60px;
+}
+
